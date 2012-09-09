@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Kinect\KinectMesh.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PositionLerper.cs">
     <Files>
       <File FileName="Assets\Scripts\Kinect\KinectMesh.cs" Line="44" Column="1" />
+      <File FileName="Assets\Scripts\PositionLerper.cs" Line="7" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

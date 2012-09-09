@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\Kinect\MeshBlur.cs" />
      <Compile Include="Assets\Scripts\Kinect\MeshLerp.cs" />
      <Compile Include="Assets\Scripts\PositionLerper.cs" />
+     <Compile Include="Assets\Volumetric Clouds\Scripts\CloudsToy.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\ExitOnEscape.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\HSBColor.cs" />
      <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\MenuController.cs" />
@@ -75,9 +76,13 @@
      <Compile Include="Assets\ZigFu\Scripts\Zig.cs" />
      <Compile Include="Assets\ZigFu\Scripts\_Internal\Matrix3.cs" />
      <Compile Include="Assets\ZigFu\Scripts\_Internal\TimedBuffer.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Resources\CloudsToy Shaders\CloudRealistic.shader" />
      <None Include="Assets\Shaders\GlobalMapper2.shader" />
+     <None Include="Assets\Resources\CloudsToy Shaders\CloudBright.shader" />
+     <None Include="Assets\Volumetric Clouds\Instructions.txt" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
@@ -89,6 +94,9 @@
  </Reference>
  <Reference Include="ZDK">
  <HintPath>Assets\ZigFu\Scripts\_Internal\ZDK.dll</HintPath>
+ </Reference>
+ <Reference Include="CloudsToy">
+ <HintPath>Assets\Volumetric Clouds\DLL\CloudsToy.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -7,6 +7,7 @@ public class PositionLerper : MonoBehaviour {
 	public float movementSpeed = 0.05f;
 	private Vector3 startPosition;
 	private float lerpAmount = 0;
+	private bool update = false;
 	
 	// Use this for initialization
 	void Start () {
@@ -15,9 +16,17 @@ public class PositionLerper : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (lerpAmount < 1.0f) {
-			lerpAmount += movementSpeed * Time.deltaTime;
-			transform.position = Vector3.Lerp(startPosition, endingPosition, lerpAmount);
+		if (update) {
+			if (lerpAmount < 1.0f) {
+				lerpAmount += movementSpeed * Time.deltaTime;
+				transform.position = Vector3.Lerp(startPosition, endingPosition, lerpAmount);
+			}
+		}
+	}
+	
+	void OnGUI() {
+		if (Event.current.Equals(Event.KeyboardEvent("A"))) {
+			update = !update;
 		}
 	}
 }
