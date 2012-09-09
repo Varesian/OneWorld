@@ -60,6 +60,7 @@
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Resources\CloudsToy Shaders\CloudRealistic.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Shaders\GlobalMapper2.shader" />
      <None Include="Assets\Resources\CloudsToy Shaders\CloudBright.shader" />
      <None Include="Assets\Volumetric Clouds\Instructions.txt" />
