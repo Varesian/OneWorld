@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_5;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_4;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -49,6 +49,7 @@
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
@@ -67,6 +68,7 @@
      <None Include="Assets\Shaders\GlobalMapper2.shader" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\LightningCloudShader.shader" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\CloudLightingModel.cginc" />
+     <None Include="Assets\Docs\controls.txt" />
      <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\LICENCE-FAQ.txt" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\CloudShader.shader" />
      <None Include="Assets\Resources\CloudsToy Shaders\CloudBright.shader" />
@@ -81,6 +83,9 @@
      <None Include="Assets\Plugins\Cloud System\Readme.txt" />
      <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\LICENCE.txt" />
      <None Include="Assets\Cloud System Demos\Assets\Sounds\Source.txt" />
+ <Reference Include="CloudSystemFree.Runtime">
+ <HintPath>Assets\Plugins\Cloud System\CloudSystemFree.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="CloudsToy">
  <HintPath>Assets\Volumetric Clouds\DLL\CloudsToy.dll</HintPath>
  </Reference>
@@ -89,9 +94,6 @@
  </Reference>
  <Reference Include="ZDK">
  <HintPath>Assets\ZigFu\Scripts\_Internal\ZDK.dll</HintPath>
- </Reference>
- <Reference Include="CloudSystemFree.Runtime">
- <HintPath>Assets\Plugins\Cloud System\CloudSystemFree.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SkyboxFadeIn.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PositionLerper.cs">
     <Files>
       <File FileName="Assets\Scripts\Kinect\KinectMesh.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PositionLerper.cs" Line="32" Column="3" />
-      <File FileName="Assets\Scripts\SkyboxFadeIn.cs" Line="32" Column="2" />
+      <File FileName="Assets\Scripts\PositionLerper.cs" Line="38" Column="1" />
+      <File FileName="Assets\Scripts\SkyboxFadeIn.cs" Line="17" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

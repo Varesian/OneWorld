@@ -6,6 +6,7 @@ public class PositionLerper : MonoBehaviour {
 	public Vector3 endingPosition;
 	public float movementSpeed = 0.05f;
 	public string key = "A";
+	public bool setStartPositionWhenKeyPressed = true;
 	private Vector3 startPosition;
 	private float lerpAmount = 0;
 	private bool update = false;
@@ -27,6 +28,9 @@ public class PositionLerper : MonoBehaviour {
 	
 	void OnGUI() {
 		if (Event.current.Equals(Event.KeyboardEvent(key))) {
+			if (setStartPositionWhenKeyPressed) {
+				startPosition = transform.localPosition;
+			}
 			update = !update;
 		}
 	}

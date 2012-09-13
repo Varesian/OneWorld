@@ -1,0 +1,9 @@
+(in order of piece's progression)
+
+a = moonrise
+s = initiate eclipse
+h = make clouds rise
+f = turn on rain
+f = turn off rain
+d = bring on the dawn
+g = move clouds right
