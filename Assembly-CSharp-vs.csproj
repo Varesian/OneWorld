@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_4;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_5;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -44,6 +44,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cloud System Demos\Scripts\Camera\CameraButtons.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\Camera\CameraFlyer.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\Camera\CameraRotator.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\Camera\CameraSwitcher.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\DestroyOnFinish.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\Effects\ChangeTint.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\Effects\GoodEvil.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\Effects\MoveShadingGroupCenter.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\Effects\Rotate.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\LightningCreator.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\ShowFPS.cs" />
+     <Compile Include="Assets\Cloud System Demos\Scripts\SoundPlayer.cs" />
      <Compile Include="Assets\Scripts\Kinect\KinectMesh.cs" />
      <Compile Include="Assets\Scripts\Kinect\MeshBlur.cs" />
      <Compile Include="Assets\Scripts\Kinect\MeshLerp.cs" />
@@ -78,18 +90,38 @@
      <Compile Include="Assets\ZigFu\Scripts\_Internal\Matrix3.cs" />
      <Compile Include="Assets\ZigFu\Scripts\_Internal\TimedBuffer.cs" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\TRADEMARKS.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\FONTLOG.txt" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\MobileLightningCloudShader.shader" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\README.txt" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\CONTRIBUTING.txt" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\MobileCloudLightingModel.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Resources\CloudsToy Shaders\CloudRealistic.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Shaders\GlobalMapper2.shader" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\LightningCloudShader.shader" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\CloudLightingModel.cginc" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\LICENCE-FAQ.txt" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\CloudShader.shader" />
      <None Include="Assets\Resources\CloudsToy Shaders\CloudBright.shader" />
      <None Include="Assets\Volumetric Clouds\Instructions.txt" />
+     <None Include="Assets\Plugins\Cloud System\CloudSystemFree.Runtime.xml" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Plugins\Cloud System\Release Notes.txt" />
+     <None Include="Assets\Plugins\Cloud System\Resources\Shaders\SoftCloudShader.shader" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\copyright.txt" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Plugins\Cloud System\Readme.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\LICENCE.txt" />
+     <None Include="Assets\Cloud System Demos\Assets\Sounds\Source.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="CloudsToy">
+ <HintPath>Assets\Volumetric Clouds\DLL\CloudsToy.dll</HintPath>
  </Reference>
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
@@ -97,8 +129,8 @@
  <Reference Include="ZDK">
  <HintPath>Assets\ZigFu\Scripts\_Internal\ZDK.dll</HintPath>
  </Reference>
- <Reference Include="CloudsToy">
- <HintPath>Assets\Volumetric Clouds\DLL\CloudsToy.dll</HintPath>
+ <Reference Include="CloudSystemFree.Runtime">
+ <HintPath>Assets\Plugins\Cloud System\CloudSystemFree.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
