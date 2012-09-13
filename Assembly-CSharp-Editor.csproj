@@ -45,7 +45,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Ian&apos;s Weather Pack\Scripts\Editor\GenerateRainbowEditor.cs" />
-     <Compile Include="Assets\Volumetric Clouds\Editor\CloudsToyEditor.cs" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\TRADEMARKS.txt" />
      <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\FONTLOG.txt" />
@@ -64,7 +63,6 @@
      <None Include="Assets\Cloud System Demos\Assets\GUI\Fonts\Ubunto Font Family\LICENCE-FAQ.txt" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\CloudShader.shader" />
      <None Include="Assets\Resources\CloudsToy Shaders\CloudBright.shader" />
-     <None Include="Assets\Volumetric Clouds\Instructions.txt" />
      <None Include="Assets\Plugins\Cloud System\CloudSystemFree.Runtime.xml" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\Plugins\Cloud System\Release Notes.txt" />
@@ -80,9 +78,6 @@
  </Reference>
  <Reference Include="CloudSystemFree.Editor">
  <HintPath>Assets\Plugins\Editor\Cloud System\CloudSystemFree.Editor.dll</HintPath>
- </Reference>
- <Reference Include="CloudsToy">
- <HintPath>Assets\Volumetric Clouds\DLL\CloudsToy.dll</HintPath>
  </Reference>
  <Reference Include="OpenNI.Net">
  <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
