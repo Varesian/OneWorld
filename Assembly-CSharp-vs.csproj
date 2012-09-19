@@ -57,7 +57,9 @@
      <Compile Include="Assets\Cloud System Demos\Scripts\ShowFPS.cs" />
      <Compile Include="Assets\Cloud System Demos\Scripts\SoundPlayer.cs" />
      <Compile Include="Assets\Ian&apos;s Weather Pack\DemoScene\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\CameraFade.cs" />
      <Compile Include="Assets\Scripts\EmitToggler.cs" />
+     <Compile Include="Assets\Scripts\FadeInOut.cs" />
      <Compile Include="Assets\Scripts\Kinect\KinectMesh.cs" />
      <Compile Include="Assets\Scripts\Kinect\MeshBlur.cs" />
      <Compile Include="Assets\Scripts\Kinect\MeshLerp.cs" />
